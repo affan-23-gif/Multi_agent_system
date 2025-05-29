@@ -22,12 +22,12 @@ Extensible Architecture: Easily add new agents and routing rules to handle addit
 
 # Project Structure
 multi_agent_system/
-├── .env                  # Environment variables (e.g., API keys)
-├── .gitignore            # Specifies intentionally untracked files to ignore
-├── main.py               # Orchestrator: entry point, classification, and routing logic
-├── llm_wrapper.py        # Abstraction for LLM API calls (currently Google Gemini)
-├── classifier_agent.py   # Agent for classifying input format and intent
-├── email_agent.py        # Agent for processing and extracting data from email content
-├── json_agent.py         # Agent for processing and extracting data from JSON content
-├── memory_module.py      # Handles shared context and memory for interactions
-└── README.md             # Project documentation (this file)
+├── .env                  
+├── .gitignore            
+├── main.py               
+├── llm_wrapper.py        
+├── classifier_agent.py   
+├── email_agent.py        
+├── json_agent.py         
+├── memory_module.py      
+└── README.md             
